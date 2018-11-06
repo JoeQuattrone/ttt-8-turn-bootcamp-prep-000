@@ -14,8 +14,7 @@ end
 
 
 def valid_move?(board, index)
-   !position_taken?(board, index) && index.between?(1, 9) 
-  if board[index] != " " || board[index] != "" || board[index] != nil
+   if !position_taken?(board, index) && index.between?(1, 9) || board[index] == nil
     true
   else false
   end
