@@ -25,7 +25,6 @@ def valid_move?(board, index)
     true
   else false
   end
->>>>>>> 41fe7de2859def0363c066c69142e2dbd5477a68
 end
 
 def input_to_index(input)
